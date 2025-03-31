@@ -2,6 +2,11 @@ spring:
   application:
     name: journalApp
 
+  data:
+    mongodb:
+      uri: mongodb+srv://apoorv:admin123@clusterjournalapp.uk2ad8p.mongodb.net/journaldb?retryWrites=true&w=majority
+
+
 server:
   port: 9393
   servlet:
